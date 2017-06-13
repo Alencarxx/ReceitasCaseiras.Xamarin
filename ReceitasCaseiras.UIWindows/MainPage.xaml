@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="ReceitasCaseiras.UIWindows.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ReceitasCaseiras.UIWindows"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" Margin="132,19,102,0" TextWrapping="Wrap" Text="Acesso restrito" VerticalAlignment="Top" Height="32"/>
+        <TextBox x:Name="txt_login" Margin="15,68,10,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Top" PlaceholderText="Login"/>
+        <PasswordBox x:Name="pwd_senha" Height="32" Margin="15,121,10,0" VerticalAlignment="Top" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Top" PlaceholderText="Senha"/>
+        <Button x:Name="btn_entrar" Content="Entrar" HorizontalAlignment="Stretch" Margin="15,182,10,0" VerticalAlignment="Top" VerticalContentAlignment="Top" Click="btn_entrar_Click"/>
+
+    </Grid>
+</Page>
